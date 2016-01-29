@@ -1,12 +1,16 @@
 Tables
   Orders
     | id | status | created_at | event_id | parent_order_id |
+    |---|---|---|---|---|
   Events
     | id | name | event_start |
+    |---|---|---|
   Tickets
     | id | order_id | price | color |
+    |---|---|---|---|
   ReturnTickets
     | id | order_id | price | color |
+    |---|---|---|---|
 
 
 Need to translate
