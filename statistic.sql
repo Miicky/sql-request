@@ -1,9 +1,9 @@
 SELECT 
         D.price as price,
-      D.color as color,
-        COALESCE(A.count_tickets,0)+ COALESCE(B.count_tickets,0) as payed_tickets_count,
+     	  D.color as color,
+        COALESCE(A.count_tickets,0) + COALESCE(B.count_tickets,0) as payed_tickets_count,
         COALESCE(C.count_tickets,0) as returned_tickets_count,
-        COALESCE(A.count_tickets,0)+ COALESCE(B.count_tickets,0)- COALESCE(C.count_tickets,0) as result_tickets_count,
+        COALESCE(A.count_tickets,0) + COALESCE(B.count_tickets,0) - COALESCE(C.count_tickets, 0) as result_tickets_count,
         COALESCE(A.PRICE_SUM,0) + COALESCE(B.PRICE_SUM,0) -COALESCE(C.PRICE_SUM,0) as total_price,
         D.event_id,
         D.event_name,
