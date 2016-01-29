@@ -1,6 +1,4 @@
-
-
-Tables
+<p>Tables
   Orders
     id, status, created_at, event_id, parent_order_id
   Events
