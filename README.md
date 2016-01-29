@@ -1,17 +1,13 @@
-<p>Tables
-  <p>Orders
-    <p>id, status, created_at, event_id, parent_order_id </p>
-  </p>
-  <p>Events
-    <p>id, name, event_start</p>
-  </p>
-  <p>Tickets
-    <p>id, order_id, price, color</p>
-  </p>
-  <p>ReturnTickets
-    <p>id, order_id, price, color</p>
-  </p>
-</p>
+Tables
+  Orders
+    id, status, created_at, event_id, parent_order_id
+  Events
+    id, name, event_start
+  Tickets
+    id, order_id, price, color
+  ReturnTickets
+    id, order_id, price, color
+
 
 Need to translate
 
@@ -23,8 +19,9 @@ Need to translate
 Звіт за 01.01.16
 Вертає
 
-price, color, payed_tickets_count, returned_tickets_count, result_tickets_count, total_price, event_name, event_start
-50   , red  , 3                  , 0                     , 3                   , 150        , lolo      , 2016-01-03 00:00:00
+| price | color | payed_tickets_count | returned_tickets_count | result_tickets_count | total_price | event_name | event_start |
+|---|---|---|---|---|---|---|---|
+|50 | red | 3 | 0 | 3 | 150 | lolo | 2016-01-03 00:00:00 |
 
 Звіт за 01-02.01.16
 Вертає
