@@ -1,13 +1,17 @@
 <p>Tables
-  Orders
-    id, status, created_at, event_id, parent_order_id
-  Events
-    id, name, event_start
-  Tickets
-    id, order_id, price, color
-  ReturnTickets
-    id, order_id, price, color
-
+  <p>Orders
+    <p>id, status, created_at, event_id, parent_order_id </p>
+  </p>
+  <p>Events
+    <p>id, name, event_start</p>
+  </p>
+  <p>Tickets
+    <p>id, order_id, price, color</p>
+  </p>
+  <p>ReturnTickets
+    <p>id, order_id, price, color</p>
+  </p>
+</p>
 
 Need to translate
 
